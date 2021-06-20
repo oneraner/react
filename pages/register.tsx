@@ -29,7 +29,10 @@ const Register = () => {
   }
 
   const responseFailure = (res: any) => {
-    refreshSetToken(res)
+    console.log('loginFailure', res)
+    setEmail('')
+    setName('')
+    setIsLogin(false)
   }
 
   useEffect(() => {
@@ -48,7 +51,7 @@ const Register = () => {
           <button
             className=" w-6/12 h-9 bg-primary text-text rounded-md p-2"
             onClick={() => {
-              // router.push('/content')
+              alert('目前不提供註冊')
             }}
           >
             註冊

@@ -18,7 +18,7 @@ const Content:React.FC = () => {
     <div className=" min-h-full flex justify-center items-center flex-wrap"> 
     <div className=" w-72 bg-background text-primary rounded-2xl p-6 my-6">
     <div className="w-full text-center mb-2"><h3 className="p-2">歡迎光臨：{name}</h3></div>
-    <div className="w-full text-center mb-2"><h3 className="p-2">您現在是用 {email} 信箱登入</h3></div>
+    <div className="w-full text-center mb-2"><h3 className="p-2">您現在是用<br /> {email} <br />信箱登入</h3></div>
     <div className="flex justify-center">
     <GoogleLogout
     clientId="848369820531-99mrj1ejd7i1qai3f9e0s0peuvkisbv7.apps.googleusercontent.com"
