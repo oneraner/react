@@ -1,5 +1,7 @@
 {
   "singleQuote": true,
   "semi": false,
-  "printWidth": 100
+  "printWidth": 100,
+  "formatOnSave":true,
+  "tabWidth":4
 }
